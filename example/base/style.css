@@ -1,0 +1,49 @@
+.base-wrapper {
+    padding: 50px;
+}
+
+.base-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.base-wrapper button {
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.base-error-foucs {
+    outline: 1px solid red;
+}
+
+.base-required {
+    color: red;
+    margin-right: 10px;
+}
+
+.base-msg {
+    margin-left: 30px;
+}
+
+.my-input, .my-radio {
+    margin-bottom: 20px;
+}
+
+.my-radio input {
+    margin-left: 10px;
+}
+
+.base-submit-btn {
+    margin-left: 30px;
+}
+
+.base-field {
+    margin-bottom: 10px;
+}
+
+.base-field-desc {
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    margin-left: 5px;
+}
