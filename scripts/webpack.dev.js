@@ -1,6 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const POST = 8707
 
 const exampleBase = path.join(__dirname, "../example")
@@ -23,7 +24,8 @@ const config = {
             filename: 'index.html',
             template: path.resolve(exampleBase, 'assets/index.html'),
             inject: true
-        })
+        }),
+        new CleanWebpackPlugin()
     ],
     mode: 'development',
     resolve: {
