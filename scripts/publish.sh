@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 发布到npm上
 npm config get registry # 检查仓库镜像库
-npm config set registry http://registry.npmjs.org
+npm config set registry=https://registry.npmjs.org
 echo '请进行登陆相关操作: '
 npm login # 登陆
 echo '------------publish---------------'
